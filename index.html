@@ -1,0 +1,221 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>De' Cerrick Rizqulloh M - Portfolio</title>
+  <link rel="icon" href="assets/logo-sheets.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <a href="#home" class="nav-logo">De-Tech</a>
+  <ul class="nav-links">
+    <li><a href="#home" class="active">Home</a></li>
+    <li><a href="#about">Tentang</a></li>
+    <li><a href="#projects">Proyek</a></li>
+    <li><a href="#skills">Keahlian</a></li>
+    <li><a href="#certificates">Sertifikat</a></li>
+    <li><a href="#contact">Kontak</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#home" onclick="closeMobile(true)">Home</a>
+  <a href="#about" onclick="closeMobile(true)">Tentang</a>
+  <a href="#projects" onclick="closeMobile(true)">Proyek</a>
+  <a href="#skills" onclick="closeMobile(true)">Keahlian</a>
+  <a href="#certificates" onclick="closeMobile(true)">Sertifikat</a>
+  <a href="#contact" onclick="closeMobile(true)">Kontak</a>
+</div>
+<div class="mobile-backdrop" id="mobileBackdrop" onclick="closeMobile()"></div>
+
+<!-- ========== HERO ========== -->
+<section id="home">
+  <div class="blob blob1"></div>
+  <div class="blob blob2"></div>
+
+  <p class="hero-greeting fade-up">Halo, Saya <span>Hi</span></p>
+  <h1 class="hero-name fade-up">De' Cerrick Rizqulloh Mumtaz</h1>
+  <p class="hero-role fade-up"><strong>Web Developer</strong></p>
+  <div class="hero-btns fade-up">
+    <a href="#projects" class="btn btn-primary">Lihat Karya Saya -></a>
+    <a href="https://wa.me/6285730700548?text=Halo%20De'%20Cerrick" target="_blank" class="btn btn-outline">
+      <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Chat WhatsApp
+    </a>
+  </div>
+
+  <div class="scroll-indicator">
+    <div class="scroll-line"></div>
+    <span>SCROLL</span>
+  </div>
+</section>
+
+<!-- ========== ABOUT ========== -->
+<section id="about">
+  <div class="about-grid">
+    <div class="about-img-wrap fade-up">
+      <img src="./assets/profile.jpg"
+           alt="Foto Profil De' Cerrick"
+           onerror="this.src='https://via.placeholder.com/400x400/131c2e/00e5c9?text=DC'" />
+    </div>
+    <div class="about-info fade-up">
+      <div>
+        <p class="section-label">Tentang</p>
+        <h2 class="section-title">Saya De' Cerrick,<br>Siswa SMK Negeri 1 Kota Kediri</h2>
+      </div>
+      <p>
+        Saya seorang siswa dari SMK Negeri 1 Kota Kediri jurusan Teknik Komputer dan Jaringan, dengan minat di bidang pemrograman dan jaringan. 
+        Saya aktif membuat proyek website sederhana menggunakan html, css, dan javascript 
+        dan sedang mempersiapkan diri untuk karier sebagai Pengembang Web atau Web Developer.
+      </p>
+      <p>
+        Saya menikmati menggabungkan keterampilan teknis dengan pemecahan masalah kreatif untuk memberikan
+        solusi yang efektif dan menarik.
+      </p>
+      <div class="about-meta">
+        <div class="about-meta-item">
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Kota Kediri, Indonesia
+        </div>
+        <div class="about-meta-item">
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          decerrickrizqullohmumtaz@gmail.com
+        </div>
+      </div>
+      <a href="#contact" class="btn btn-primary" style="width:fit-content;">Rekrut Saya</a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PROJECTS ========== -->
+<section id="projects">
+  <div class="projects-header fade-up">
+    <div>
+      <p class="section-label">Portofolio</p>
+      <h2 class="section-title">Proyek Saya</h2>
+    </div>
+  </div>
+
+  <div class="projects-grid" id="projectsGrid"></div>
+
+  <div class="show-more-wrap">
+    <button class="btn btn-outline" id="showMoreBtn" onclick="toggleProjects()">Tampilkan Lebih Banyak</button>
+  </div>
+</section>
+
+<!-- ========== SKILLS ========== -->
+<section id="skills">
+  <div class="fade-up">
+    <p class="section-label">Kemampuan</p>
+    <h2 class="section-title">Keahlian Saya</h2>
+  </div>
+
+  <div class="skills-track-wrap">
+    <div class="skills-track" id="skillsTrack"></div>
+  </div>
+</section>
+
+<!-- ========== CERTIFICATES ========== -->
+<section id="certificates">
+  <div class="fade-up">
+    <p class="section-label">Pencapaian</p>
+    <h2 class="section-title">Sertifikat</h2>
+  </div>
+  <div class="certs-grid fade-up" id="certsGrid"></div>
+</section>
+
+<div class="modal-backdrop" id="certModal" onclick="closeModal()">
+  <div class="modal-inner" onclick="event.stopPropagation()">
+    <button class="modal-close" onclick="closeModal()">X</button>
+    <img id="modalImg" src="" alt="Sertifikat" />
+  </div>
+</div>
+
+<!-- ========== CONTACT ========== -->
+<section id="contact">
+  <div class="fade-up">
+    <p class="section-label">Hubungi</p>
+    <h2 class="section-title">Get In Touch</h2>
+  </div>
+
+  <div class="contact-grid">
+    <div class="contact-info fade-up">
+      <div class="contact-item">
+        <div class="contact-icon">LOC</div>
+        <div>
+          <h4>Lokasi</h4>
+          <p>Kota Kediri, Indonesia</p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">MAIL</div>
+        <div>
+          <h4>Email</h4>
+          <p>decerrickrizqullohmumtaz@gmail.com</p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">WA</div>
+        <div>
+          <h4>WhatsApp</h4>
+          <p>+62 857 3070 0548</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form fade-up">
+      <div class="form-row">
+        <div class="form-group">
+          <label>Nama</label>
+          <input type="text" id="fName" placeholder="Nama Lengkap" />
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" id="fEmail" placeholder="email@contoh.com" />
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Subjek</label>
+        <input type="text" id="fSubject" placeholder="Apa yang ingin dibicarakan?" />
+      </div>
+      <div class="form-group">
+        <label>Pesan</label>
+        <textarea id="fMessage" placeholder="Tulis pesanmu di sini..."></textarea>
+      </div>
+      <button class="btn btn-primary" onclick="sendMessage()" style="width:fit-content;">Kirim Pesan</button>
+      <div class="form-success" id="formSuccess">Pesan berhasil dikirim! Saya akan segera merespons.</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2026 <strong>De' Cerrick Rizqulloh Mumtaz</strong>. Dibuat dengan HTML, CSS &amp; JS.</p>
+</footer>
+
+<div class="social-float">
+  <a href="https://github.com/decerrick-sarjana-tidur" target="_blank" title="GitHub">
+    <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+  </a>
+  <a href="https://wa.me/6285730700548" target="_blank" title="WhatsApp">
+    <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+  <a href="mailto:decerrickrizqullohmumtaz@gmail.com" title="Email">
+    <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+  </a>
+</div>
+
+<button class="back-top" id="backTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">^</button>
+
+<script src="./script.js" defer></script>
+</body>
+</html>
